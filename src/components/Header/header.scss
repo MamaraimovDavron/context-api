@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  border: 8px solid;
+  border-radius: 50px 50px 0px 0px;
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px 50px 0px 0px;
+
+    width: 100%;
+    .left-side {
+      //   border: 1px solid red;
+      width: 40%;
+      padding: 30px 87px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      .title {
+        display: flex;
+        // border: 1px solid;
+        h4 {
+          color: #202020;
+          font-family: Be Vietnam;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          letter-spacing: -0.4px;
+          margin: 0;
+          width: 120px;
+          //   padding: 0;
+        }
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        // border: 1px solid;
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+        li {
+          //   border: 1px solid;
+          list-style-type: none;
+          width: 79px;
+          a {
+            text-decoration: none;
+            color: #0065ff;
+            font-family: Be Vietnam;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            // border: 1px solid;
+          }
+        }
+      }
+    }
+
+    .right-side {
+      width: 60%;
+      // border: 1px solid green;
+      background-color: #3c3b3a;
+      border-radius: 0px 38px 0px 0px;
+
+      padding: 30px 87px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      .mode {
+        display: flex;
+        // border: 1px solid;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 50px;
+        .icons {
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+          align-items: center;
+          .bi {
+            cursor: pointer;
+            color: white;
+            transition: all 0.5s;
+
+            &:hover {
+              transform: scale(1.2);
+            }
+          }
+          // width: 30%;
+        }
+        span {
+          display: flex;
+          flex-direction: row;
+          // border: 1px solid;
+          align-items: center;
+          gap: 5px;
+          p {
+            // padding: 0;
+            margin: 0;
+          }
+
+          .toggle {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}
