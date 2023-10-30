@@ -40,11 +40,13 @@
   font-weight: 700;
   line-height: 100%; /* 70px */
   letter-spacing: -1.4px;
+  margin-left: 70px;
 }
 .middle .third-box h1 .white {
   color: white;
 }
 .middle .third-box .z-index {
   margin-top: 50px;
+  margin-left: 70px;
   color: #737373;
 }/*# sourceMappingURL=middle.css.map */

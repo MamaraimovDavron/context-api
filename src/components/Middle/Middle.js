@@ -94,7 +94,7 @@ class Middle extends Component {
           <h1>Hello.</h1>
 
           <h1>
-            My name <span className="white">is Kevin</span>
+            My na<span className="white">me is Kevin</span>
           </h1>
 
           <p className="z-index">
