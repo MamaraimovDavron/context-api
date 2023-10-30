@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+}
+.container {
+  /* border: 10px solid #222; */
+  height: 100vh;
+  /* border-radius: 50px; */
+  margin: 50px auto;
+  width: 100%;
+}

@@ -1,0 +1,50 @@
+.middle {
+  display: flex;
+  border: 10px solid #222;
+  border-top: 0;
+  border-radius: 0px 0px 50px 50px;
+  flex-direction: row;
+  width: 100%;
+  height: 80vh;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.middle .middle-left {
+  width: 42.4%;
+  box-shadow: 10px 0px 10px 1px gray, 10px 0px 10px 1px gray;
+  border-radius: 0 0 0 50px;
+}
+.middle .middle-right {
+  border-radius: 0 0 15px 0px;
+  width: 60%;
+  background-color: #222;
+}
+.middle .third-box {
+  width: 800px;
+  position: absolute;
+  height: 100%;
+  left: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.middle .third-box .circle {
+  display: flex;
+  flex-direction: row;
+}
+.middle .third-box h1 {
+  color: #0065ff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 70px */
+  letter-spacing: -1.4px;
+}
+.middle .third-box h1 .white {
+  color: white;
+}
+.middle .third-box .z-index {
+  margin-top: 50px;
+  color: #737373;
+}/*# sourceMappingURL=middle.css.map */
