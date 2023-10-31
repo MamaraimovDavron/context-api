@@ -1,10 +1,14 @@
 import React, { Component } from "react";
+import ThemeContext from "../context/ThemeContext";
 import "./middle.css";
 
 class Middle extends Component {
+  static contextType = ThemeContext;
+
   render() {
+    console.log(this.context);
     return (
-      <div className="middle">
+      <div className={`middle ${this.context.middle}`}>
         <div className="middle-left"></div>
         <div className="middle-right"></div>
         <div className="third-box">

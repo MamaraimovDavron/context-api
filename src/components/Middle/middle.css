@@ -1,4 +1,4 @@
-.middle {
+.middleLight {
   display: flex;
   border: 10px solid #222;
   border-top: 0;
@@ -10,17 +10,17 @@
   margin: 0;
   position: relative;
 }
-.middle .middle-left {
+.middleLight .middle-left {
   width: 42.4%;
   box-shadow: 10px 0px 10px 1px gray, 10px 0px 10px 1px gray;
   border-radius: 0 0 0 50px;
 }
-.middle .middle-right {
+.middleLight .middle-right {
   border-radius: 0 0 15px 0px;
   width: 60%;
   background-color: #222;
 }
-.middle .third-box {
+.middleLight .third-box {
   width: 800px;
   position: absolute;
   height: 100%;
@@ -28,11 +28,11 @@
   display: flex;
   flex-direction: column;
 }
-.middle .third-box .circle {
+.middleLight .third-box .circle {
   display: flex;
   flex-direction: row;
 }
-.middle .third-box h1 {
+.middleLight .third-box h1 {
   color: #0065ff;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 70px;
@@ -42,10 +42,63 @@
   letter-spacing: -1.4px;
   margin-left: 70px;
 }
-.middle .third-box h1 .white {
+.middleLight .third-box h1 .white {
   color: white;
 }
-.middle .third-box .z-index {
+.middleLight .third-box .z-index {
+  margin-top: 50px;
+  margin-left: 70px;
+  color: #737373;
+}
+
+.middleDark {
+  display: flex;
+  border: 10px solid #222;
+  border-top: 0;
+  border-radius: 0px 0px 50px 50px;
+  flex-direction: row;
+  width: 100%;
+  height: 80vh;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.middleDark .middle-left {
+  width: 42.4%;
+  background-color: #222;
+  border-radius: 0 0 0 37px;
+}
+.middleDark .middle-right {
+  width: 60%;
+  background-color: white;
+  border-radius: 0px 0px 37px 0px;
+}
+.middleDark .third-box {
+  width: 800px;
+  position: absolute;
+  height: 100%;
+  left: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.middleDark .third-box .circle {
+  display: flex;
+  flex-direction: row;
+}
+.middleDark .third-box h1 {
+  color: #0065ff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 70px */
+  letter-spacing: -1.4px;
+  margin-left: 70px;
+}
+.middleDark .third-box h1 .white {
+  color: #737373;
+}
+.middleDark .third-box .z-index {
   margin-top: 50px;
   margin-left: 70px;
   color: #737373;

@@ -1,12 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from "react";
+import ThemeContext from "../context/ThemeContext";
 import "./header.css";
 
 class Header extends Component {
+  static contextType = ThemeContext;
+
   render() {
+    console.log(this.context);
     return (
-      <header>
+      <header className={`light ${this.context.theme}`}>
         <div className="left">
           <h4>Kevin Bennet</h4>
           <ul>
@@ -37,8 +41,15 @@ class Header extends Component {
           </div>
 
           <div className="btn">
-            <span>Dark mode: </span>
-            <button className="btn btn-dark"></button>
+            <span>
+              {`${this.context.theme === "dark" ? "Dark" : "Light"}`}{" "}
+            </span>
+            <button
+              className={`btn ${
+                this.context.theme === "dark" ? "btn-light" : "btn-dark"
+              }`}
+              onClick={this.context.toggleTheme}
+            ></button>
           </div>
         </div>
       </header>

@@ -14,6 +14,7 @@ header .left {
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
+  border-radius: 40px 0px 0px 0px;
 }
 header .left h4 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -67,4 +68,21 @@ header .right .btn {
 header .right .btn button {
   padding: 8px 10px;
   background-color: white;
+}
+
+.dark .left {
+  background-color: #3c3b3a;
+  color: white;
+}
+.dark .right {
+  background-color: white;
+}
+.dark .right .icons a {
+  color: #3c3b3a;
+}
+.dark .right .btn {
+  color: #3c3b3a;
+}
+.dark .right .btn button {
+  background-color: #3c3b3a;
 }/*# sourceMappingURL=header.css.map */
